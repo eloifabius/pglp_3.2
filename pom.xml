@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>fr.uvsq.pglp</groupId>
-  <artifactId>pgl3.5</artifactId>
+  <artifactId>pgl3.1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>pgl3.5</name>
@@ -68,6 +68,10 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+        <plugin>
+          <groupId>com.github.spotbugs</groupId>
+          <artifactId>spotbugs-maven-plugin</artifactId>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
@@ -94,10 +98,6 @@
             </reports>
           </reportSet>
         </reportSets>
-      </plugin>
-      <plugin>
-        <groupId>com.github.spotbugs</groupId>
-        <artifactId>spotbugs-maven-plugin</artifactId>
       </plugin>
     </plugins>
   </reporting>
