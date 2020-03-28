@@ -1,11 +1,10 @@
 package fr.uvsq.pglp;
 
 /**
- * Hello world!
- *
+ * Exercice 3.2 PGLP!
+ * Kossi Eloi Fabius DEFLY
  */
-public class App 
-{
+public class App {
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
