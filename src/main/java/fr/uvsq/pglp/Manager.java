@@ -10,7 +10,7 @@ public class Manager extends AllEmploye {
 
     @Override
     public double salaire() {
-        // TODO Auto-generated method stub
+        //TODO Auto-generated method stub
         return base+(NombresEmployes*100);
     }
 }
